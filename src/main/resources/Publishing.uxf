@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>135</x>
+      <y>72</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Smart Device</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>513</x>
+      <y>72</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>162</x>
+      <y>126</y>
+      <w>18</w>
+      <h>342</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>387</x>
+      <y>72</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Streaming</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>270</x>
+      <y>72</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Apache Camel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>306</x>
+      <y>180</y>
+      <w>18</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>162</x>
+      <y>90</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>162</y>
+      <w>153</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+sendData</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>189</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+publishData</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>423</x>
+      <y>90</y>
+      <w>27</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>423</x>
+      <y>207</y>
+      <w>18</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>549</x>
+      <y>90</y>
+      <w>27</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>549</x>
+      <y>216</y>
+      <w>18</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>198</y>
+      <w>135</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getData</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>243</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getResult</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>180</y>
+      <w>153</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+dataReceived</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>234</y>
+      <w>135</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+publishResult</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>63</x>
+      <y>162</y>
+      <w>531</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>[noStreaming]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>45</x>
+      <y>135</y>
+      <w>567</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>loop [sensorData]
+--
+
+
+
+
+
+
+
+
+
+
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>63</x>
+      <y>333</y>
+      <w>531</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Streaming]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>306</x>
+      <y>90</y>
+      <w>27</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>252</y>
+      <w>153</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+sendResult</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>270</y>
+      <w>153</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+resultReceived</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>333</y>
+      <w>270</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+publishData</panel_attributes>
+    <additional_attributes>280.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>342</y>
+      <w>135</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getData</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>378</y>
+      <w>135</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+publishResult</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>396</y>
+      <w>270</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getResult</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+</diagram>

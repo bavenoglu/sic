@@ -1,0 +1,127 @@
+2020-04-24 12:27:14,256 [main] INFO  sic.Initializer - Service -GoogleSpeechToText- is initializing ....
+2020-04-24 12:27:15,214 [main] INFO  sic.Service - Redis topic -GoogleSpeechToTextRcv- is created for receiving data.
+2020-04-24 12:27:15,994 [main] INFO  sic.Service - Redis topic -GoogleSpeechToTextSnd- is created for sending results.
+2020-04-24 12:27:15,995 [main] INFO  sic.Initializer - GoogleSpeechToText service is registered.
+2020-04-24 12:27:51,629 [qtp665255666-96] INFO  sic.DeviceProcessor - Device connection request from Robot1Mic
+2020-04-24 12:27:51,768 [qtp665255666-96] ERROR org.apache.camel.processor.errorhandler.DefaultErrorHandler - Failed delivery for (MessageId: ID-WINDOWS-BK2BM0G-1587720471619-0-2 on ExchangeId: ID-WINDOWS-BK2BM0G-1587720471619-0-1). Exhausted after delivery attempt: 1 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[jetty:http://localhost:80/Connect]                                       ] [       147]
+[route1            ] [process1          ] [Processor@0x639b8b67                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at sic.DeviceProcessor.process(DeviceProcessor.java:39)
+	at org.apache.camel.support.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:64)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:476)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.doService(CamelContinuationServlet.java:219)
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:852)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.apache.camel.component.jetty.MultiPartFilter.doFilter(MultiPartFilter.java:50)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:45)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1591)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:542)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1307)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:482)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1204)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:494)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:374)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:268)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:782)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:918)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-04-24 12:27:52,095 [qtp665255666-92] INFO  sic.DeviceProcessor - Device connection request from Robot1Mic
+2020-04-24 12:27:52,255 [qtp665255666-92] ERROR org.apache.camel.processor.errorhandler.DefaultErrorHandler - Failed delivery for (MessageId: ID-WINDOWS-BK2BM0G-1587720471619-0-4 on ExchangeId: ID-WINDOWS-BK2BM0G-1587720471619-0-3). Exhausted after delivery attempt: 1 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[jetty:http://localhost:80/Connect]                                       ] [       161]
+[route1            ] [process1          ] [Processor@0x639b8b67                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at sic.DeviceProcessor.process(DeviceProcessor.java:39)
+	at org.apache.camel.support.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:64)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:476)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.doService(CamelContinuationServlet.java:219)
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:852)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1604)
+	at org.apache.camel.component.jetty.MultiPartFilter.doFilter(MultiPartFilter.java:50)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:45)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1591)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:542)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1307)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:482)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1204)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:494)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:374)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:268)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:135)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:782)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:918)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-04-24 12:28:32,948 [qtp665255666-91] INFO  sic.DeviceProcessor - Device connection request from BilginRobot1
+2020-04-24 12:28:33,300 [qtp665255666-91] INFO  sic.Device - Data sending routes are preparing ...
+2020-04-24 12:28:34,119 [qtp665255666-91] INFO  sic.Device - Route -BilginRobot1Mic1Snd- from Redis topic -BilginRobot1Mic1Snd- to requested services of -BilginRobot1Mic1- is preparing.
+2020-04-24 12:28:35,882 [qtp665255666-91] INFO  sic.Device - Route -BilginRobot1Mic1Snd- is created from Redis topic -BilginRobot1Mic1Snd- to Redis topic -GoogleSpeechToTextRcv
+2020-04-24 12:28:35,972 [qtp665255666-91] INFO  sic.Device - Result receiving routes are preparing ...
+2020-04-24 12:28:36,349 [qtp665255666-91] INFO  sic.Device - Processing -BilginRobot1Mic1GoogleSpeechToText
+2020-04-24 12:28:37,904 [RedisMessageListenerContainer-1] ERROR org.springframework.data.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-04-24 12:28:38,508 [qtp665255666-91] INFO  sic.Device - Service request -direct:BilginRobot1Mic1GoogleSpeechToText- is added to choice.
+2020-04-24 12:28:38,565 [qtp665255666-91] INFO  sic.Device - Route -GoogleSpeechToText- is created from Redis topic -GoogleSpeechToTextSnd- to service requests.
+2020-04-24 12:28:39,567 [qtp665255666-91] INFO  sic.Device - Route -BilginRobot1Mic1GoogleSpeechToText- is created from -direct:BilginRobot1Mic1GoogleSpeechToText- to Redis topic -BilginRobot1Mic1GoogleSpeechToTextRcv1
+2020-04-24 12:28:40,566 [RedisMessageListenerContainer-1] ERROR org.springframework.data.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-04-24 12:28:42,474 [qtp665255666-91] INFO  sic.Device - Connection information is prepared as JSON 
+2020-04-24 12:28:42,594 [qtp665255666-166] INFO  sic.DeviceProcessor - Device connection request from BilginRobot1
+2020-04-24 12:28:43,001 [qtp665255666-166] INFO  sic.Device - Data sending routes are preparing ...
+2020-04-24 12:28:43,790 [qtp665255666-166] INFO  sic.Device - Route -BilginRobot1Mic1Snd- from Redis topic -BilginRobot1Mic1Snd- to requested services of -BilginRobot1Mic1- is preparing.
+2020-04-24 12:28:44,321 [qtp665255666-166] WARN  sic.Device - Route BilginRobot1Mic1Snd is stopped.
+2020-04-24 12:28:44,907 [RedisMessageListenerContainer-2] ERROR org.springframework.data.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-04-24 12:28:45,350 [qtp665255666-166] INFO  sic.Device - Route -BilginRobot1Mic1Snd- is created from Redis topic -BilginRobot1Mic1Snd- to Redis topic -GoogleSpeechToTextRcv
+2020-04-24 12:28:45,429 [qtp665255666-166] INFO  sic.Device - Result receiving routes are preparing ...
+2020-04-24 12:28:45,847 [qtp665255666-166] INFO  sic.Device - Processing -BilginRobot1Mic1GoogleSpeechToText
+2020-04-24 12:28:47,140 [qtp665255666-166] WARN  sic.Device - Route -GoogleSpeechToText- is stopped.
+2020-04-24 12:28:47,351 [RedisMessageListenerContainer-1] ERROR org.springframework.data.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-04-24 12:28:47,567 [RedisMessageListenerContainer-2] ERROR org.springframework.data.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-04-24 12:28:47,637 [qtp665255666-166] INFO  sic.Device - Service request -direct:BilginRobot1Mic1GoogleSpeechToText- is added to choice.
+2020-04-24 12:28:47,657 [qtp665255666-166] INFO  sic.Device - Route -GoogleSpeechToText- is created from Redis topic -GoogleSpeechToTextSnd- to service requests.
+2020-04-24 12:28:47,657 [qtp665255666-166] WARN  sic.Device - Route -BilginRobot1Mic1GoogleSpeechToText- is stopped.
+2020-04-24 12:28:48,449 [qtp665255666-166] INFO  sic.Device - Route -BilginRobot1Mic1GoogleSpeechToText- is created from -direct:BilginRobot1Mic1GoogleSpeechToText- to Redis topic -BilginRobot1Mic1GoogleSpeechToTextRcv1
+2020-04-24 12:28:49,658 [RedisMessageListenerContainer-1] ERROR org.springframework.data.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-04-24 12:28:51,345 [qtp665255666-166] INFO  sic.Device - Connection information is prepared as JSON 

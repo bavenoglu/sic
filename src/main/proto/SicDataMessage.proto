@@ -1,0 +1,10 @@
+syntax = "proto3";
+package org.apache.camel.component.protobuf;
+
+option java_package = "org.apache.camel.component.protobuf";
+option java_outer_classname = "SicDataMessages";
+
+message SicDataMessage {
+	string UID = 1;
+	bytes bData = 2;
+}
